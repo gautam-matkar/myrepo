@@ -3,7 +3,7 @@ package com.cummins.da.ev.lambdahandler;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-great point
+great point-but thats not point--------------------------
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
