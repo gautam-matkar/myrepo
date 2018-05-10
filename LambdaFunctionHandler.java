@@ -24,7 +24,7 @@ import com.cummins.da.ev.vo.EVDataWrapperVO;
 
 public class LambdaFunctionHandler implements RequestHandler<SNSEvent, Object> {
 	private Map<String, String> variables = new HashMap<String, String>();
-
+comonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 	private LambdaLogger logger;
 	private AmazonSNS snsClient = null;
 	private String Status="";
