@@ -39,7 +39,7 @@ public class LambdaFunctionHandler implements RequestHandler<SNSEvent, Object> {
 	
 	public Object handleRequest(SNSEvent input, Context context) {
 		this.logger = context.getLogger();
-
+		hello
 		if (this.variables.isEmpty()) {
 			this.variables.putAll(getVariables());
 		}
