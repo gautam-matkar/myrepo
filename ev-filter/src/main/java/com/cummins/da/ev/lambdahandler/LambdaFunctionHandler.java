@@ -29,6 +29,7 @@ public class LambdaFunctionHandler implements RequestHandler<SNSEvent, String> {
 	private String serviceModelName=null;
 	  
 	public void setSNS(AmazonSNS sns) {
+		/*test commit*/
 	    this.snsClient = sns;
 	  }
 	  public void setRetrieveDBRecords(RetrieveDBRecords dbretreiver) {
